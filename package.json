@@ -1,0 +1,36 @@
+{
+  "name": "nano-banana-image-editor",
+  "version": "1.0.0",
+  "description": "Image manipulation app using Gemini 2.5 Flash Image (Nano Banana)",
+  "scripts": {
+    "start": "parcel src/index.html --port 3000",
+    "build": "parcel build src/index.html"
+  },
+  "keywords": [
+    "gemini",
+    "nano-banana",
+    "image-editor",
+    "ai"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@google/genai": "^0.2.0",
+    "mime": "^3.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-icons": "^4.12.0",
+    "styled-components": "^6.1.1"
+  },
+  "devDependencies": {
+    "@types/mime": "^3.0.1",
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.39",
+    "@types/react-dom": "^18.2.17",
+    "buffer": "^6.0.3",
+    "parcel": "^2.10.3",
+    "process": "^0.11.10",
+    "typescript": "^5.3.2"
+  }
+}
